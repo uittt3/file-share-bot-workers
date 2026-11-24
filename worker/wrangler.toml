@@ -34,7 +34,7 @@ WORLDBOOK_FORUM_ID = ""
 PRESET_FORUM_ID = ""
 TXT_FORUM_ID = ""
 # Supabase 项目地址（密钥 SUPABASE_KEY 走 secret）
-SUPABASE_URL = ""
+SUPABASE_URL = "https://qzvexgswuomhmlwhlelq.supabase.co"
 # 图床异地备份（可选；留空关闭）
 IMGBED_URL = ""
 IMGBED_AUTH_CODE = ""
