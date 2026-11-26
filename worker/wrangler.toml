@@ -11,28 +11,23 @@ compatibility_flags = ["nodejs_compat"]
 crons = ["*/5 * * * *"]
 
 [vars]
-# Discord 应用 ID（开发者后台 General Information）
-DISCORD_APPLICATION_ID = ""
-# 命令注册的服务器 ID（原 bot_config: command_push_guildids）
-GUILD_ID = ""
-# 日志频道（原 bot_config: logger.log_channel_id）
-LOG_CHANNEL_ID = ""
-# 归档存储频道（原 bot_config: archive.storage_channel_id）
-STORAGE_CHANNEL_ID = ""
-# 素材上传单文件上限 MB（原 bot_config: archive.max_upload_size_mb）
-MAX_UPLOAD_MB = "10"
-# 启用自动打标签的论坛频道，逗号分隔（原 bot_config: auto_tag.enabled_channels）
-AUTO_TAG_CHANNELS = ""
-# 开发者用户 ID，逗号分隔（原 bot_config: developers_userid；更换api 面板限开发者可用时用）
-DEVELOPER_IDS = ""
-# 轮询的图床 Discord 频道 ID（图床上传文件自动落入的频道）——部署时必填
-POLL_CHANNEL_ID = ""
-# 轮询时跳过 bot 自己发的消息（图床是 webhook 推送，webhook 消息会照常处理）
-# 论坛频道 ID（原 .env；未单独配置的留空，自动回退到 CHARACTER_FORUM_ID）
+# Discord 应用 ID
+DISCORD_APPLICATION_ID = "1575322427070615592"
+# 命令注册的服务器 ID
+GUILD_ID = "1162032547480469645"
+# 日志频道
 LOG_CHANNEL_ID = "1575035026343460874"
+# 归档存储频道
 STORAGE_CHANNEL_ID = "1575035148938903663"
+# 素材上传单文件上限 MB
+MAX_UPLOAD_MB = "10"
+# 启用自动打标签的论坛频道，逗号分隔（不用就留空）
+AUTO_TAG_CHANNELS = ""
+# 开发者用户 ID，逗号分隔
+DEVELOPER_IDS = "988099517763174420"
+# 自动收档频道
 POLL_CHANNEL_ID = "1575035272523939870"
-
+# 论坛频道 ID
 CHARACTER_FORUM_ID = "1575035928517279886"
 WORLDBOOK_FORUM_ID = "1575036050500354138"
 PRESET_FORUM_ID = "1575036105965703178"
